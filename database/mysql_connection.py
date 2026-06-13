@@ -9,13 +9,12 @@ import mysql.connector
 from mysql.connector import Error
 
 
-# --- Database settings (change password here if your root user has one) ---
-DB_HOST = "127.0.0.1"       # Local computer (same machine as MySQL server)
-DB_PORT = 3306              # Default port for MySQL/MariaDB
-DB_NAME = "smart_shelf"     # Database name created in schema.sql
-DB_USER = "root"            # MySQL username
-DB_PASSWORD = ""            # Root password (empty if you did not set one)
-
+# --- Database settings 
+DB_HOST = "b755pswtvdsqosjgej88-mysql.services.clever-cloud.com"
+DB_PORT = 3306
+DB_NAME = "b755pswtvdsqosjgej88"
+DB_USER = "uijh7a6d0b2t59jp"
+DB_PASSWORD = "JKf23IzUKkA80XaRauIN"
 
 def connect_database():
     """
